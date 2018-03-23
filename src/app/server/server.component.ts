@@ -1,10 +1,8 @@
-import { Component } from "@angular/core";
+import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-server',
-    templateUrl: './server.component.html'
+    template: `<p>Servers Component inline</p>`
 
 })
-export class ServerComponent{
-
-}
+export class ServerComponent {}
